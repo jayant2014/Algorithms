@@ -1,7 +1,7 @@
 import fibonacci
 import unittest
 
-class TestProgram(unittest.TestCase):
+class TestNthFibonacci(unittest.TestCase):
     def test_fib_1(self):
         self.assertEqual(fibonacci.get_nthfib(1), 0)
     

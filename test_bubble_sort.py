@@ -1,7 +1,7 @@
 import bubble_sort
 import unittest
 
-class TestProgram(unittest.TestCase):
+class TestBubbleSort(unittest.TestCase):
     def test_single_element_array(self):
         self.assertEqual(bubble_sort.bubbleSort([5]), [5])
 	
